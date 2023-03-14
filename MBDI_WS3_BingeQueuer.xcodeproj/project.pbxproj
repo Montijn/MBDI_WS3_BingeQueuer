@@ -14,6 +14,12 @@
 		D074865729C0877F001AB692 /* MBDI_WS3_BingeQueuerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074865629C0877F001AB692 /* MBDI_WS3_BingeQueuerTests.swift */; };
 		D074866129C0877F001AB692 /* MBDI_WS3_BingeQueuerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074866029C0877F001AB692 /* MBDI_WS3_BingeQueuerUITests.swift */; };
 		D074866329C0877F001AB692 /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074866229C0877F001AB692 /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift */; };
+		D074867629C0889A001AB692 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074867529C0889A001AB692 /* Series.swift */; };
+		D074867829C088D6001AB692 /* BingeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074867729C088D6001AB692 /* BingeRow.swift */; };
+		D074867A29C08B2B001AB692 /* SeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074867929C08B2B001AB692 /* SeriesList.swift */; };
+		D074867C29C09143001AB692 /* SeriesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074867B29C09143001AB692 /* SeriesDetail.swift */; };
+		D074867E29C09413001AB692 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074867D29C09413001AB692 /* CircleImage.swift */; };
+		D074868029C095BB001AB692 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074867F29C095BB001AB692 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		D074865C29C0877F001AB692 /* MBDI_WS3_BingeQueuerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBDI_WS3_BingeQueuerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D074866029C0877F001AB692 /* MBDI_WS3_BingeQueuerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDI_WS3_BingeQueuerUITests.swift; sourceTree = "<group>"; };
 		D074866229C0877F001AB692 /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDI_WS3_BingeQueuerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D074867529C0889A001AB692 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Series.swift; path = ../../../../Downloads/Code/Series.swift; sourceTree = "<group>"; };
+		D074867729C088D6001AB692 /* BingeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingeRow.swift; sourceTree = "<group>"; };
+		D074867929C08B2B001AB692 /* SeriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesList.swift; sourceTree = "<group>"; };
+		D074867B29C09143001AB692 /* SeriesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetail.swift; sourceTree = "<group>"; };
+		D074867D29C09413001AB692 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../../../Downloads/Code/CircleImage.swift; sourceTree = "<group>"; };
+		D074867F29C095BB001AB692 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../../../Downloads/Code/MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +107,9 @@
 		D074864329C0877F001AB692 /* MBDI_WS3_BingeQueuer */ = {
 			isa = PBXGroup;
 			children = (
-				D074864429C0877F001AB692 /* MBDI_WS3_BingeQueuerApp.swift */,
-				D074864629C0877F001AB692 /* ContentView.swift */,
-				D074864829C0877F001AB692 /* Assets.xcassets */,
-				D074864A29C0877F001AB692 /* MBDI_WS3_BingeQueuer.entitlements */,
+				D074866F29C08798001AB692 /* Resources */,
+				D074867329C0882C001AB692 /* View */,
+				D074867229C087F0001AB692 /* Model */,
 				D074864B29C0877F001AB692 /* Preview Content */,
 			);
 			path = MBDI_WS3_BingeQueuer;
@@ -127,6 +138,45 @@
 				D074866229C0877F001AB692 /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift */,
 			);
 			path = MBDI_WS3_BingeQueuerUITests;
+			sourceTree = "<group>";
+		};
+		D074866F29C08798001AB692 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D074864429C0877F001AB692 /* MBDI_WS3_BingeQueuerApp.swift */,
+				D074864829C0877F001AB692 /* Assets.xcassets */,
+				D074864A29C0877F001AB692 /* MBDI_WS3_BingeQueuer.entitlements */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D074867229C087F0001AB692 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D074867529C0889A001AB692 /* Series.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D074867329C0882C001AB692 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D074867429C08852001AB692 /* Components */,
+				D074864629C0877F001AB692 /* ContentView.swift */,
+				D074867929C08B2B001AB692 /* SeriesList.swift */,
+				D074867B29C09143001AB692 /* SeriesDetail.swift */,
+				D074867F29C095BB001AB692 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D074867429C08852001AB692 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D074867D29C09413001AB692 /* CircleImage.swift */,
+				D074867729C088D6001AB692 /* BingeRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D074867629C0889A001AB692 /* Series.swift in Sources */,
+				D074868029C095BB001AB692 /* MapView.swift in Sources */,
 				D074864729C0877F001AB692 /* ContentView.swift in Sources */,
+				D074867A29C08B2B001AB692 /* SeriesList.swift in Sources */,
+				D074867E29C09413001AB692 /* CircleImage.swift in Sources */,
+				D074867C29C09143001AB692 /* SeriesDetail.swift in Sources */,
+				D074867829C088D6001AB692 /* BingeRow.swift in Sources */,
 				D074864529C0877F001AB692 /* MBDI_WS3_BingeQueuerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

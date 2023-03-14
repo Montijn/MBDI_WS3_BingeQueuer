@@ -11,7 +11,7 @@ import SwiftUI
 struct MBDI_WS3_BingeQueuerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SeriesList()
         }
     }
 }
